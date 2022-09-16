@@ -1,0 +1,89 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh);
+    width: calc(100vw);
+}
+#matchList{
+    display: flex;
+    flex-wrap: wrap;
+}
+#cup-year{
+    text-align: center;
+}
+.group-box{
+    display: flex;
+    width: 18.5%;
+    height: 70px;
+    box-shadow: 0px 2px 5px gray;
+    padding: 10px;
+    margin: 2% 2%;
+    border-radius: 4px;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.group-box:hover{
+    font-size: 1.7em;
+}
+#mainofInfo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh);
+    width: calc(100vw);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+#detail-box{
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+#close-head{
+    display: flex;
+    justify-content: right;
+    height: 12%;
+}
+#close-btn{
+    cursor: pointer;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color: transparent;
+}
+#close-btn:hover{
+    background-color: red;
+    color: white;
+}
+#all-teams{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+}
+.t-n-box, .t-code-box, .t-posi-box, .t-plyd-box, .t-won-box, .t-drawn-box, .t-lost-box, .t-goalfor-box, .t-goalagainst-box, .t-pts-box{
+    background-color: rgb(225, 238, 250);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 3px 0px 3px 0px;
+}
+#team-details{
+    display: flex;
+    height: auto;
+}
+.detail-column{
+    border: 1px solid black;
+}
+.heading-div{
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+    margin: 6px 15px 6px 15px;
+}
